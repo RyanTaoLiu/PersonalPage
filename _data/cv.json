@@ -51,8 +51,8 @@
       "courses": []
     },
   ],
-  "skills": [Topology optimization, Manufacture optimization, Computational geometry],
-  "languages": [Python, C++, Matlab],
+  "skills": ["Topology optimization", "Manufacture optimization", "Computational geometry"],
+  "languages": ["Python", "C++", "Matlab"],
   "interests": [],
   "references": [],
   "publications": [

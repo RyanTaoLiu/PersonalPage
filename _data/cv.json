@@ -1,142 +1,139 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Tao LIU",
+    "email": "tao.liu@manchester.ac.uk",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://ryantaoliu.github.io",
+    "summary": "Ph.D student at the University of Manchester",
     "location": {
       "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "postalCode": "M13 9PL",
+      "city": "Manchester",
+      "countryCode": "UK",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=0v34TRQAAAAJ"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "http://orcid.org/0000-0003-1016-4191"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "",
+        "url": "https://github.com/ryantaoliu"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "The University of Manchester",
+      "area": "Ph.D Student in Neural-Based Design and Manufacture Optimization",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "startDate": "2020",
+      "endDate": "Now",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Central South University",
+      "area": "M.S. & B.S in Computational Mathematics",
       "studyType": "",
       "startDate": "",
       "endDate": "2014",
       "gpa": null,
       "courses": []
     },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
-    }
   ],
-  "skills": [],
-  "languages": [],
+  "skills": [Topology optimization, Manufacture optimization, Computational geometry],
+  "languages": [Python, C++, Matlab],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Memory-efficient modeling and slicing of large-scale adaptive lattice structures",
+      "publisher": "Journal of Computing and Information Science in Engineering",
+      "releaseDate": "2021",
+      "website": "https://asmedigitalcollection.asme.org/computingengineering/article/21/6/061003/1100541/Memory-Efficient-Modeling-and-Slicing-of-Large",
+      "summary": ""
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Implicit progressive-iterative algorithm of curves and surfaces with compactly supported radial basis functions",
+      "publisher": "Journal of Computer-Aided Design & Computer Graphics",
+      "releaseDate": "2021",
+      "website": "https://www.jcad.cn/en/article/doi/10.3724/SP.J.1089.2021.18807",
+      "summary": ""
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Variational progressive-iterative approximation for RBF-based surface reconstruction",
+      "publisher": "The Visual Computer",
+      "releaseDate": "2021",
+      "website": "https://link.springer.com/article/10.1007/s00371-021-02213-3",
+      "summary": ""
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
+      "name": "Neural Slicer for Multi-Axis 3D Printing",
+      "publisher": "ACM Transactions on Graphics (TOG)",
+      "releaseDate": "2024",
+      "website": "https://dl.acm.org/doi/abs/10.1145/3658212",
+      "summary": ""
+    },
+    {
+      "name": "Learning Based Toolpath Planner on Diverse Graphs for 3D Printing",
+      "publisher": "ACM Transactions on Graphics (TOG)",
+      "releaseDate": "2024",
+      "website": "https://dl.acm.org/doi/abs/10.1145/3687933",
+      "summary": ""
+    },
+    {
+      "name": "Co-Optimization of Tool Orientations, Kinematic Redundancy, and Waypoint Timing for Robot-Assisted Manufacturing",
+      "publisher": "IEEE Transactions on Automation Science and Engineering",
+      "releaseDate": "2025",
+      "website": "https://ieeexplore.ieee.org/abstract/document/10891882",
+      "summary": ""
+    },
+    {
+      "name": "Toolpath generation for high density spatial fiber printing guided by principal stresses",
+      "publisher": "Composites Part B: Engineering",
+      "releaseDate": "2025",
+      "website": "https://www.sciencedirect.com/science/article/pii/S1359836825000447",
+      "summary": ""
+    },
+        {
+      "name": "Neural co-optimization of structural topology, manufacturable layers, and path orientations for fiber-reinforced composites",
+      "publisher": "ACM Transactions on Graphics (TOG)",
+      "releaseDate": "2025",
+      "website": "https://dl.acm.org/doi/abs/10.1145/3730922",
+      "summary": ""
+    },
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
+  "presentations": [],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
+      "course": "Introduction to Programming",
+      "institution": "The University of Manchester",
+      "date": "2024-2025",
+      "role": "Teaching Assistant",
       "description": ""
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
+      "course": "Advanced Modelling & Simulation",
+      "institution": "The University of Manchester",
+      "date": "2023-2024",
       "role": "Workshop",
+      "description": ""
+    },
+      {
+      "course": " Additive Manufacturing & 3D Product Modelling",
+      "institution": "The University of Manchester",
+      "date": "2023-2024",
+      "role": "Teaching Assistant",
       "description": ""
     }
   ],

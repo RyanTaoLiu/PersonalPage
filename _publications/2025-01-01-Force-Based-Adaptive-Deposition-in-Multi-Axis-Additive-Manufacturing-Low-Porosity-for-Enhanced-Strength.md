@@ -1,6 +1,7 @@
 ---
 title: "Force-Based Adaptive Deposition in Multi-Axis Additive Manufacturing: Low Porosity for Enhanced Strength"
 collection: publications
+category: manuscripts
 permalink: /publication/2025-01-01-Force-Based-Adaptive-Deposition-in-Multi-Axis-Additive-Manufacturing-Low-Porosity-for-Enhanced-Strength
 date: 2025-01-01
 venue: 'Robotics and Computer-Integrated Manufacturing'

@@ -1,6 +1,7 @@
 ---
 title: "Neural co-optimization of structural topology, manufacturable layers, and path orientations for fiber-reinforced composites"
 collection: publications
+category: manuscripts
 permalink: /publication/2025-01-01-Neural-co-optimization-of-structural-topology-manufacturable-layers-and-path-orientations-for-fiber-reinforced-composites
 date: 2025-01-01
 venue: 'ACM Transactions on Graphics (TOG)'

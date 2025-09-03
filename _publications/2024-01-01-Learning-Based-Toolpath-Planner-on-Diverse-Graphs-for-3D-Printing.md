@@ -1,6 +1,7 @@
 ---
 title: "Learning Based Toolpath Planner on Diverse Graphs for 3D Printing"
 collection: publications
+category: manuscripts
 permalink: /publication/2024-01-01-Learning-Based-Toolpath-Planner-on-Diverse-Graphs-for-3D-Printing
 date: 2024-01-01
 venue: 'ACM Transactions on Graphics (TOG)'

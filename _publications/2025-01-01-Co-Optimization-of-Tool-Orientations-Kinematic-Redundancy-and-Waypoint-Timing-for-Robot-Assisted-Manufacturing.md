@@ -1,6 +1,7 @@
 ---
 title: "Co-Optimization of Tool Orientations, Kinematic Redundancy, and Waypoint Timing for Robot-Assisted Manufacturing"
 collection: publications
+category: manuscripts
 permalink: /publication/2025-01-01-Co-Optimization-of-Tool-Orientations-Kinematic-Redundancy-and-Waypoint-Timing-for-Robot-Assisted-Manufacturing
 date: 2025-01-01
 venue: 'IEEE Transactions on Automation Science and Engineering'

@@ -1,6 +1,7 @@
 ---
 title: "Memory-efficient modeling and slicing of large-scale adaptive lattice structures"
 collection: publications
+category: manuscripts
 permalink: /publication/2021-01-01-Memory-efficient-modeling-and-slicing-of-large-scale-adaptive-lattice-structures
 date: 2021-01-01
 venue: 'Journal of Computing and Information Science in Engineering'

@@ -1,6 +1,7 @@
 ---
 title: "Variational progressive-iterative approximation for RBF-based surface reconstruction"
 collection: publications
+category: manuscripts
 permalink: /publication/2021-01-01-Variational-progressive-iterative-approximation-for-RBF-based-surface-reconstruction
 date: 2021-01-01
 venue: 'The Visual Computer'

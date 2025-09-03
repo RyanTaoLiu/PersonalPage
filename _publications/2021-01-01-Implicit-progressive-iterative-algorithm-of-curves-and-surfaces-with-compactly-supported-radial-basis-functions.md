@@ -1,6 +1,7 @@
 ---
 title: "Implicit progressive-iterative algorithm of curves and surfaces with compactly supported radial basis functions"
 collection: publications
+category: manuscripts
 permalink: /publication/2021-01-01-Implicit-progressive-iterative-algorithm-of-curves-and-surfaces-with-compactly-supported-radial-basis-functions
 date: 2021-01-01
 venue: 'Journal of Computer-Aided Design &amp; Computer Graphics'

@@ -1,6 +1,7 @@
 ---
 title: "Neural Slicer for Multi-Axis 3D Printing"
 collection: publications
+category: manuscripts
 permalink: /publication/2024-01-01-Neural-Slicer-for-Multi-Axis-3D-Printing
 date: 2024-01-01
 venue: 'ACM Transactions on Graphics (TOG)'

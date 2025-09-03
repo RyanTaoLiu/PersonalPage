@@ -1,6 +1,7 @@
 ---
 title: "Toolpath generation for high density spatial fiber printing guided by principal stresses"
 collection: publications
+category: manuscripts
 permalink: /publication/2025-01-01-Toolpath-generation-for-high-density-spatial-fiber-printing-guided-by-principal-stresses
 date: 2025-01-01
 venue: 'Composites Part B: Engineering'

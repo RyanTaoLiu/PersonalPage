@@ -6,7 +6,7 @@
     "website": "https://ryantaoliu.github.io",
     "summary": "Ph.D student at the University of Manchester",
     "location": {
-      "address": "",
+      "address": "Nancy Rothwell Building",
       "postalCode": "M13 9PL",
       "city": "Manchester",
       "countryCode": "UK",
@@ -51,9 +51,9 @@
       "courses": []
     },
   ],
-  "skills": ["Topology optimization", "Manufacture optimization", "Computational geometry"],
-  "languages": ["Python", "C++", "Matlab"],
-  "interests": [],
+  "skills": [{"name":"Python"}, {"name":"C++"}, {"name":"Matlab"}],
+  "languages": [{"language":"Chinese", "fluency":"native speaker"}, {"language":"English", "fluency":"C1"}],
+  "interests": [{"name":"Topology optimization"}, {"name":"Manufacture optimization"}, {"name":"Computational geometry"}],
   "references": [],
   "publications": [
     {

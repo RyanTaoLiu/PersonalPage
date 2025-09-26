@@ -2,7 +2,7 @@
 title: "Introduction to Programming"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2025-spring-teaching-1
+permalink: https://www.manchester.ac.uk/study/undergraduate/courses/2025/00560/bsc-computer-science/course-details/
 venue: "The University of Manchester"
 date: 2025-01-01
 location: "Manchester, The UK"

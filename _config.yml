@@ -22,13 +22,13 @@ repository               : "PersonalPage"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile1.png"
   name             : "Tao LIU"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Ph.D student"
   location         : "Manchester"
   employer         : "The University of Manchester"
-  uri              : # URL
+  uri              : https://ryantaoliu.github.io/PersonalPage/
   email            : "tao.liu@manchester.ac.uk" 
 
   # Academic websites

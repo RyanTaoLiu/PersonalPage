@@ -1,0 +1,13 @@
+---
+title: "Roadmap on Artificial Intelligence-Augmented Additive Manufacturing"
+collection: publications
+category: manuscripts
+permalink: /publication/2025-01-01-Roadmap-on-Artificial Intelligence-Augmented-Additive Manufacturing.md
+date: 2025-12-01
+venue: 'Advanced Intelligent Systems'
+citation: 'Zolfagharian Ali, Jin Liuchao, Ge Qi, Liao Wei-Hsin, Lantada Andrés Díaz, Martínez Francisco Franco, Zhang Tianyu, Liu Tao, Wang Charlie C.L., Mosallanejad Mohammad Hossein, Ghanavati Reza, Saboori Abdollah, De Miguel Alejandro De Blas, Solórzano-Requejo William, Cai Yi, Dong Xiangyang, Qu Huangyi, Samadiani Najmeh, Huang Guangyan, Downey Austin, Fu Yanzhou, Yuan Lang, Lee Tsz-Kwan (Glory), Baniya Arbind Agrahari, Waseem Eisha, Sani Abdul Rahman, Kouzani Abbas Z., Wu Yijia, Nemitz Markus P., Shirzad Masoud, Oh Dageon, Nam Seung Yun, Bonatti Amedeo Franco, Chiesa Irene, Fortunato Gabriele Maria, Vozzi Giovanni, De Maria Carmelo, Bodaghi Mahdi. Adv. Intell. Syst.. 2025; 000, e202500484. https://doi.org/10.1002/aisy.202500484'
+selected: true
+header:
+  teaser: publications/Adv_Roadmap.png
+---
+Artificial intelligence-augmented additive manufacturing (AI2AM) represents a transformative frontier in digital fabrication, where artificial intelligence (AI) is embedded not as a peripheral tool, but as a central framework driving intelligent, adaptive, and autonomous additive manufacturing (AM) systems. The objective of this Roadmap is to present a comprehensive vision of the state-of-the-art developments in AI2AM while charting the future trajectory of this rapidly emerging field. As AM applications continue to expand across diverse sectors, conventional design and control strategies face growing limitations in scalability, quality assurance, and material complexity. AI uses tools like computer vision, generative design, and large language models to help solve problems in scalability, quality assurance, and material complexity, allowing for real-time defect detection, digital twin integration, and closed-loop process control. This roadmap brings together leading contributions from twenty internationally recognized research groups by uniting perspectives from materials science, computer science, robotics, and manufacturing. This work aims to create a cohesive framework for advancing AI2AM as a multidisciplinary science. The ultimate intent of this work is to establish a foundation for coordinated research and innovation in AI-powered AM and to serve as a strategic entry point for future breakthroughs in autonomous and sustainable production.

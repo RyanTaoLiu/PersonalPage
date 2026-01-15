@@ -1,0 +1,5 @@
+# Local development configuration
+# This file overrides baseurl for local development
+# It will be used when running Jekyll locally with: jekyll serve --config _config.yml,_config_local.yml
+
+baseurl: ""  # Empty baseurl for local development

@@ -5,29 +5,85 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div class="publications-intro">
+  <p>My research focuses on <span class="highlight-text">computational geometry, additive manufacturing, and robotics</span>. Below is a list of my publications. {% if site.author.googlescholar %}You can also find my articles on <a href="{{site.author.googlescholar}}" class="highlight-link">my Google Scholar profile</a>.{% endif %}</p>
+</div>
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+<!-- Group publications by year: 2026, 2025, 2024, then others -->
+{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
+
+<!-- Display 2026 -->
+{% assign year_2026 = "" | split: "" %}
+{% for post in sorted_pubs %}
+  {% assign post_year = post.date | date: "%Y" %}
+  {% if post_year == "2026" %}
+    {% assign year_2026 = year_2026 | push: post %}
+  {% endif %}
+{% endfor %}
+{% if year_2026.size > 0 %}
+  <h2 class="publication-year-title">2026</h2>
+  {% for post in year_2026 %}
+    {% include archive-single.html %}
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
+{% endif %}
+
+<!-- Display 2025 -->
+{% assign year_2025 = "" | split: "" %}
+{% for post in sorted_pubs %}
+  {% assign post_year = post.date | date: "%Y" %}
+  {% if post_year == "2025" %}
+    {% assign year_2025 = year_2025 | push: post %}
+  {% endif %}
+{% endfor %}
+{% if year_2025.size > 0 %}
+  <h2 class="publication-year-title">2025</h2>
+  {% for post in year_2025 %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+<!-- Display 2024 -->
+{% assign year_2024 = "" | split: "" %}
+{% for post in sorted_pubs %}
+  {% assign post_year = post.date | date: "%Y" %}
+  {% if post_year == "2024" %}
+    {% assign year_2024 = year_2024 | push: post %}
+  {% endif %}
+{% endfor %}
+{% if year_2024.size > 0 %}
+  <h2 class="publication-year-title">2024</h2>
+  {% for post in year_2024 %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+<!-- Display other years (sorted in reverse order) -->
+{% assign processed_years = "2026,2025,2024" | split: "," %}
+{% assign other_years_pubs = "" | split: "" %}
+{% for post in sorted_pubs %}
+  {% assign post_year = post.date | date: "%Y" %}
+  {% assign is_special_year = false %}
+  {% for year in processed_years %}
+    {% if post_year == year %}
+      {% assign is_special_year = true %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  {% unless is_special_year %}
+    {% assign other_years_pubs = other_years_pubs | push: post %}
+  {% endunless %}
+{% endfor %}
+
+{% if other_years_pubs.size > 0 %}
+  {% assign current_year = "" %}
+  {% for post in other_years_pubs %}
+    {% assign post_year = post.date | date: "%Y" %}
+    {% if current_year != post_year %}
+      <h2 class="publication-year-title">{{ post_year }}</h2>
+      {% assign current_year = post_year %}
+    {% endif %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}

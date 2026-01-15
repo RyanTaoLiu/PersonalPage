@@ -7,8 +7,11 @@ author_profile: true
 
 {% include base_path %}
 
+<div class="portfolio-intro">
+  <p>This portfolio showcases my research projects, software tools, and 3D printing works in the fields of <span class="highlight-text">computational geometry, additive manufacturing, and robotics</span>. Each project includes detailed descriptions, key features, and links to code repositories and publications.</p>
+</div>
 
-{% for post in site.portfolio %}
+{% for post in site.portfolio reversed %}
   {% include archive-single.html %}
 {% endfor %}
 

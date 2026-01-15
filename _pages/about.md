@@ -25,16 +25,16 @@ Before my Ph.D., I received my **B.S. and M.S. degrees in Computational Mathemat
 
 ## Publications & Service
 
-I have published in top-tier journals and conferences such as *ACM Transactions on Graphics (TOG)*, *IEEE Transactions on Automation Science and Engineering*, and *Composites Part B*. Beyond research, I also serve as a teaching assistant for programming, modelling, and additive manufacturing courses at Manchester.
+I have published in some journals and conferences such as **ACM Transactions on Graphics (TOG)**, **IEEE Transactions on Automation Science and Engineering**, and **Composites Part B**. Beyond research, I also serve as a teaching assistant for programming, modelling, and additive manufacturing courses at Manchester.
 
 I serve as a reviewer for journals and conferences, including:
-- **ACM SIGGRAPH** and **SIGGRAPH Asia**
-- **ACM Symposium on Computational Fabrication (SCF)**
-- **Additive Manufacturing Process (AMP)**
-- **Computer Aided Design (CAD)**
-- **Computer Aided Geometry Design (CAGD)**
-- **Eurographics (EG)**
-- **Graphical Models (GMod)**
+- *ACM SIGGRAPH** and *SIGGRAPH Asia*
+- *ACM Symposium on Computational Fabrication (SCF)*
+- *Additive Manufacturing Process (AMP)*
+- *Computer Aided Design (CAD)*
+- *Computer Aided Geometry Design (CAGD)*
+- *Eurographics (EG)*
+- *Graphical Models (GMod)*
 
 ## Open Source Software
 

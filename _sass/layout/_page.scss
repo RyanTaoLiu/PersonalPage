@@ -37,6 +37,7 @@
 .page__title {
   margin-top: 0;
   line-height: 1;
+  font-size: $type-size-4;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -56,7 +57,7 @@
   }
 
   p, li, dl {
-    font-size: 1em;
+    font-size: $type-size-5;
   }
 
   /* paragraph indents */
@@ -234,8 +235,8 @@
 
   .lead {
     margin: 0;
-    font-size: $type-size-4;
-    line-height: 1.7;
+    font-size: $type-size-5;
+    line-height: 1.6;
     color: var(--global-text-color);
 
     strong {
@@ -268,13 +269,14 @@
     margin-bottom: 1em;
     padding-bottom: 0.5em;
     border-bottom: 2px solid var(--global-link-color);
-    font-size: $type-size-3;
+    font-size: $type-size-4;
     color: var(--global-text-color);
   }
 
   h3 {
     margin-top: 1.5em;
     margin-bottom: 0.75em;
+    font-size: $type-size-5;
     color: var(--global-text-color);
   }
 
@@ -285,12 +287,14 @@
     li {
       margin: 0.5em 0;
       line-height: 1.7;
+      font-size: $type-size-5;
     }
   }
 
   p {
-    line-height: 1.8;
+    line-height: 1.7;
     margin-bottom: 1.2em;
+    font-size: $type-size-5;
   }
 }
 

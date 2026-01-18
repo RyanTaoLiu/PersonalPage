@@ -9,56 +9,70 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+# Tao LIU
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+Nancy Rothwell Building, M13 9PL, Manchester, UK  
+{{ site.author.email }} | {{ site.author.uri }}
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+# RESEARCH INTERESTS
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+Neural-based design and manufacturing optimization, computational geometry, additive manufacturing, and robotics. In particular: multi-axis 3D printing, topology optimization, neural implicit representations for geometric modeling, fiber-reinforced composites, and computational design frameworks.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+# RESEARCH EXPERIENCE
+
+The University of Manchester  
+Ph.D. Student; advised by Prof. Charlie C.L. Wang  
+Manchester, UK  
+2023 - Now
+
+Central South University
+Rearch assiatance; advised by Prof. Shengjun Liu
+Changsha, China
+2020 - 2023  
+
+# PUBLICATIONS
+
+{% assign pub_count = site.publications | size %}
+{% assign pub_index = pub_count %}
+{% for post in site.publications reversed %}
+{{ pub_index }} {{ post.citation }}
+{% assign pub_index = pub_index | minus: 1 %}
+{% endfor %}
+
+# EDUCATION
+
+The University of Manchester  
+Ph.D. in Neural-Based Design and Manufacturing Optimization; Supervised by Prof. Charlie C.L. Wang  
+Manchester, UK  
+2020 - Now
+
+Central South University  
+M.S. & B.S. in Computational Mathematics; Supervised by Prof. Shengjun LIU  
+ChangSha, China  (GPA 3.4/4 top 10%)
+Aug 2008 - Jun 2014
+
+# HONORS & AWARDS
+
+* Best Paper Award @ SIGGRAPH Asia | 2025
+* Huawei Scholarship @ The University of Manchester | 2018
+* University Recommendation for M.Sc. Admission (Exam-Exempt), School of Mathematics, Central South University | 2017
+* Excellent Student @ Central South University | 2014
+
+# ACADEMIC SERVICE
+
+## Reviewer for Journals and Conferences
+
+* _ACM SIGGRAPH_ and _SIGGRAPH Asia_
+* _ACM Symposium on Computational Fabrication (SCF)_
+* _Additive Manufacturing Process (AMP)_
+* _Computer Aided Design (CAD)_
+* _Computer Aided Geometry Design (CAGD)_
+* _Eurographics (EG)_
+* _Graphical Models (GMod)_
+
+# TEACHING
+
+{% for post in site.teaching reversed %}
+* {{ post.title }} @ {{ post.venue }}  
+  {{ post.type | default: "Teaching Assistant" }}, {{ post.date | date: "%B %Y" }}
+{% endfor %}

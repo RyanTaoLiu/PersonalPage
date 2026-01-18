@@ -26,7 +26,7 @@ Manchester, UK
 2023 - Now
 
 Central South University
-Rearch assiatance; advised by Prof. Shengjun Liu
+Research Assistant; advised by Prof. Shengjun LIU
 Changsha, China
 2020 - 2023  
 

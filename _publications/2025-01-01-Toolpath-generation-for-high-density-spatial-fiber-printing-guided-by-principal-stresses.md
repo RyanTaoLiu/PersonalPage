@@ -6,6 +6,8 @@ permalink: /publication/2025-06-01-Toolpath-generation-for-high-density-spatial-
 date: 2025-01-01
 venue: 'Composites Part B: Engineering'
 citation: ' Tianyu Zhang,  Tao Liu,  Neelotpal Dutta,  Yongxue Chen,  Renbo Su,  Zhizhou Zhang,  Weiming Wang,  Charlie Wang, &quot;Toolpath generation for high density spatial fiber printing guided by principal stresses.&quot; Composites Part B: Engineering, 2025.'
+author_role: "cofirst"
+authors: "Tianyu Zhang, Tao LIU, Neelotpal Dutta, Yongxue Chen, Renbo Su, Zhizhou Zhang, Weiming Wang, Charlie Wang"
 selected: true
 header:
   teaser: publications/AMHighDenseToolpath.jpg

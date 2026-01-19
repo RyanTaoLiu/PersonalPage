@@ -6,6 +6,8 @@ permalink: /publication/2021-01-01-Memory-efficient-modeling-and-slicing-of-larg
 date: 2021-01-01
 venue: 'Journal of Computing and Information Science in Engineering'
 citation: ' Shengjun Liu,  Tao Liu,  Qiang Zou,  Weiming Wang,  Eugeni Doubrovski,  Charlie Wang, &quot;Memory-efficient modeling and slicing of large-scale adaptive lattice structures.&quot; Journal of Computing and Information Science in Engineering, 2021.'
+author_role: "supervisor-first-second-author"
+authors: "Shengjun LIU, Tao LIU, Qiang Zou, Weiming Wang, Eugeni L Doubrovski, Charlie CL Wang"
 selected: true
 header:
   teaser: publications/JCISELatticeImplicitModeling.jpg

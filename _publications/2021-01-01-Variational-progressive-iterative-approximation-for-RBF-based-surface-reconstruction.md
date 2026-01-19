@@ -6,6 +6,8 @@ permalink: /publication/2021-01-01-Variational-progressive-iterative-approximati
 date: 2021-01-01
 venue: 'The Visual Computer'
 citation: ' Shengjun Liu,  Tao Liu,  Ling Hu,  Yuanyuan Shang,  Xinru Liu, &quot;Variational progressive-iterative approximation for RBF-based surface reconstruction.&quot; The Visual Computer, 2021.'
+author_role: "supervisor-first-second-author"
+authors: "Shengjun LIU, Tao LIU, Ling Hu, Yuanyuan Shang, Xinru Liu"
 selected: true
 header:
   teaser: publications/TVC_RBF1.jpg

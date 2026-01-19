@@ -6,6 +6,8 @@ permalink: /publication/2025-01-01-Roadmap-on-Artificial Intelligence-Augmented-
 date: 2025-12-01
 venue: 'Advanced Intelligent Systems'
 citation: 'Zolfagharian Ali, Jin Liuchao, Ge Qi, Liao Wei-Hsin, Lantada Andrés Díaz, Martínez Francisco Franco, Zhang Tianyu, Liu Tao, Wang Charlie C.L., Mosallanejad Mohammad Hossein, Ghanavati Reza, Saboori Abdollah, De Miguel Alejandro De Blas, Solórzano-Requejo William, Cai Yi, Dong Xiangyang, Qu Huangyi, Samadiani Najmeh, Huang Guangyan, Downey Austin, Fu Yanzhou, Yuan Lang, Lee Tsz-Kwan (Glory), Baniya Arbind Agrahari, Waseem Eisha, Sani Abdul Rahman, Kouzani Abbas Z., Wu Yijia, Nemitz Markus P., Shirzad Masoud, Oh Dageon, Nam Seung Yun, Bonatti Amedeo Franco, Chiesa Irene, Fortunato Gabriele Maria, Vozzi Giovanni, De Maria Carmelo, Bodaghi Mahdi. Adv. Intell. Syst.. 2025; 000, e202500484. https://doi.org/10.1002/aisy.202500484'
+author_role: "other"
+authors: "Ali Zolfagharian, Liuchao Jin, Qi Ge, Wei-Hsin Liao, Andrés Díaz Lantada, Francisco Franco Martínez, Tianyu Zhang, Tao LIU, Charlie C. L. Wang, and others"
 selected: true
 header:
   teaser: publications/Adv_Roadmap.png

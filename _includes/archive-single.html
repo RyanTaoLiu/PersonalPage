@@ -32,7 +32,49 @@
         {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
       </p>
     {% elsif post.collection == 'publications' %}
-      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% if post.award %} <strong>({{ post.award }})</strong>{% endif %}</p>
+      {% if post.authors %}
+        <p class="publication-authors">
+          {% assign authors_list = post.authors | split: ", " %}
+          {% for author in authors_list %}
+            {% assign author_lower = author | downcase %}
+            {% assign is_tao_liu = false %}
+            {% if author_lower contains "tao liu" or author_lower contains "liu tao" %}
+              {% assign is_tao_liu = true %}
+            {% endif %}
+            {% assign author_index = forloop.index0 %}
+            {% if post.author_role == "first-author-cofirst" %}
+              {% if is_tao_liu %}
+                <u><strong>{{ author }}</strong></u>{% unless forloop.last %}, {% endunless %}
+              {% elsif author_index == 1 %}
+                <u>{{ author }}</u>{% unless forloop.last %}, {% endunless %}
+              {% else %}
+                {{ author }}{% unless forloop.last %}, {% endunless %}
+              {% endif %}
+            {% elsif post.author_role == "cofirst" %}
+              {% if author_index == 0 %}
+                <u>{{ author }}</u>{% unless forloop.last %}, {% endunless %}
+              {% elsif is_tao_liu %}
+                <u><strong>{{ author }}</strong></u>{% unless forloop.last %}, {% endunless %}
+              {% else %}
+                {{ author }}{% unless forloop.last %}, {% endunless %}
+              {% endif %}
+            {% elsif post.author_role == "supervisor-first-second-author" %}
+              {% if is_tao_liu %}
+                <strong>{{ author }}</strong>{% unless forloop.last %}, {% endunless %}
+              {% else %}
+                {{ author }}{% unless forloop.last %}, {% endunless %}
+              {% endif %}
+            {% else %}
+              {% if is_tao_liu %}
+                <strong>{{ author }}</strong>{% unless forloop.last %}, {% endunless %}
+              {% else %}
+                {{ author }}{% unless forloop.last %}, {% endunless %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </p>
+      {% endif %}
     {% elsif post.date %}
      <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
     {% endif %}

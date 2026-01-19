@@ -6,6 +6,8 @@ permalink: /publication/2025-01-01-Neural-co-optimization-of-structural-topology
 date: 2025-07-01
 venue: 'ACM Transactions on Graphics (TOG)'
 citation: ' Tao Liu,  Tianyu Zhang,  Yongxue Chen,  Weiming Wang,  Yu Jiang,  Yuming Huang,  Charlie Wang, &quot;Neural co-optimization of structural topology, manufacturable layers, and path orientations for fiber-reinforced composites.&quot; ACM Transactions on Graphics (TOG), 2025.'
+author_role: "first-author-cofirst"
+authors: "Tao LIU, Tianyu Zhang, Yongxue Chen, Weiming Wang, Yu Jiang, Yuming Huang, Charlie Wang"
 selected: true
 header:
   teaser: publications/SIG2025CoOptmFRComposite.jpg

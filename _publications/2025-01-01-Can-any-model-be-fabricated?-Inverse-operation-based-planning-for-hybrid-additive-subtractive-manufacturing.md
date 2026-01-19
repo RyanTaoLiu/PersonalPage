@@ -6,6 +6,8 @@ permalink: /publication/2025-01-01-Can-any-model-be-fabricated?-Inverse-operatio
 date: 2025-12-01
 venue: 'ACM Transactions on Graphics'
 citation: 'Yongxue Chen, Tao Liu, Yuming Huang, Weiming Wang, Tianyu Zhang, Kun Qian, Zikang Shi, and Charlie C. L. Wang. 2025. Can Any Model Be Fabricated? Inverse Operation Based Planning for Hybrid Additive-Subtractive Manufacturing. ACM Trans. Graph. 44, 6, Article 191 (December 2025), 14 pages. https://doi.org/10.1145/3763355'
+author_role: "cofirst"
+authors: "Yongxue Chen, Tao LIU, Yuming Huang, Weiming Wang, Tianyu Zhang, Kun Qian, Zikang Shi, Charlie C. L. Wang"
 selected: true
 header:
   teaser: publications/SIGAsia2025HybridManu.jpg

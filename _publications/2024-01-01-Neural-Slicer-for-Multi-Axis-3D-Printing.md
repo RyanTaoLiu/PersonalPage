@@ -6,6 +6,8 @@ permalink: /publication/2024-01-01-Neural-Slicer-for-Multi-Axis-3D-Printing
 date: 2024-07-01
 venue: 'ACM Transactions on Graphics (TOG)'
 citation: ' Tao Liu,  Tianyu Zhang,  Yongxue Chen,  Yuming Huang,  Charlie Wang, &quot;Neural Slicer for Multi-Axis 3D Printing.&quot; ACM Transactions on Graphics (TOG), 2024.'
+author_role: "first-author-cofirst"
+authors: "Tao LIU, Tianyu Zhang, Yongxue Chen, Yuming Huang, Charlie Wang"
 selected: true
 header:
   teaser: publications/SIG2024NeuralSlicer.jpg

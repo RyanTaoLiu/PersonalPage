@@ -4,7 +4,7 @@
     "email": "tao.liu@manchester.ac.uk",
     "phone": "",
     "website": "https://ryantaoliu.github.io",
-    "summary": "Ph.D student at the University of Manchester",
+    "summary": "Ph.D. Student in Neural-Based Design and Manufacturing Optimization at The University of Manchester",
     "location": {
       "address": "Nancy Rothwell Building",
       "postalCode": "M13 9PL",
@@ -12,138 +12,251 @@
       "countryCode": "UK",
       "region": ""
     },
-    "profiles": [
-      {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=0v34TRQAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/0000-0003-1016-4191"
-      },
-      {
-        "network": "GitHub",
-        "username": "",
-        "url": "https://github.com/ryantaoliu"
-      }
-    ]
+    "profiles": []
   },
-  "work": [],
+  "work": [
+    {
+      "company": "The University of Manchester",
+      "position": "Ph.D. Student",
+      "website": "",
+      "startDate": "2023",
+      "endDate": "Now",
+      "summary": "Advised by Prof. Charlie C.L. Wang",
+      "highlights": []
+    },
+    {
+      "company": "Central South University",
+      "position": "Research Assistant",
+      "website": "",
+      "startDate": "2020",
+      "endDate": "2023",
+      "summary": "Advised by Prof. Shengjun LIU",
+      "highlights": []
+    }
+  ],
   "education": [
     {
       "institution": "The University of Manchester",
-      "area": "Ph.D Student in Neural-Based Design and Manufacture Optimization",
+      "area": "Ph.D. in Neural-Based Design and Manufacturing Optimization",
       "studyType": "",
-      "startDate": "2020",
+      "startDate": "2023",
       "endDate": "Now",
       "gpa": null,
-      "courses": []
+      "courses": [],
+      "summary": "Supervised by Prof. Charlie C.L. Wang"
     },
     {
       "institution": "Central South University",
-      "area": "M.S. & B.S in Computational Mathematics",
+      "area": "M.S. & B.S. in Computational Mathematics",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
+      "startDate": "Aug 2013",
+      "endDate": "Jun 2020",
+      "gpa": "3.4/4 top 10%",
+      "courses": [],
+      "summary": "Supervised by Prof. Shengjun LIU"
+    }
   ],
-  "skills": [{"name":"Python"}, {"name":"C++"}, {"name":"Matlab"}],
-  "languages": [{"language":"Chinese", "fluency":"native speaker"}, {"language":"English", "fluency":"C1"}],
-  "interests": [{"name":"Topology optimization"}, {"name":"Manufacture optimization"}, {"name":"Computational geometry"}],
-  "references": [],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["Python", "C++", "Matlab", "LaTeX"]
+    },
+    {
+      "name": "Languages",
+      "keywords": ["Chinese (Native)", "English (C1)"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "C1"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research Interests",
+      "keywords": ["Neural-based design and manufacturing optimization", "computational geometry", "additive manufacturing", "robotics", "multi-axis 3D printing", "topology optimization", "neural implicit representations for geometric modeling", "fiber-reinforced composites", "computational design frameworks"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Paper Award",
+      "date": "2025",
+      "awarder": "SIGGRAPH Asia",
+      "summary": ""
+    },
+    {
+      "title": "Huawei Scholarship",
+      "date": "2018",
+      "awarder": "School of Mathematics, Central South University",
+      "summary": ""
+    },
+    {
+      "title": "University Recommendation for M.Sc. Admission (Exam-Exempt)",
+      "date": "2017",
+      "awarder": "School of Mathematics, Central South University",
+      "summary": ""
+    },
+    {
+      "title": "Excellent Student",
+      "date": "2014",
+      "awarder": "School of Chemistry, Central South University",
+      "summary": ""
+    }
+  ],
   "publications": [
     {
-      "name": "Memory-efficient modeling and slicing of large-scale adaptive lattice structures",
-      "publisher": "Journal of Computing and Information Science in Engineering",
-      "releaseDate": "2021",
-      "website": "https://asmedigitalcollection.asme.org/computingengineering/article/21/6/061003/1100541/Memory-Efficient-Modeling-and-Slicing-of-Large",
-      "summary": ""
-    },
-    {
-      "name": "Implicit progressive-iterative algorithm of curves and surfaces with compactly supported radial basis functions",
-      "publisher": "Journal of Computer-Aided Design & Computer Graphics",
-      "releaseDate": "2021",
-      "website": "https://www.jcad.cn/en/article/doi/10.3724/SP.J.1089.2021.18807",
-      "summary": ""
-    },
-    {
-      "name": "Variational progressive-iterative approximation for RBF-based surface reconstruction",
-      "publisher": "The Visual Computer",
-      "releaseDate": "2021",
-      "website": "https://link.springer.com/article/10.1007/s00371-021-02213-3",
-      "summary": ""
+      "name": "Neural co-optimization of structural topology, manufacturable layers, and path orientations for fiber-reinforced composites",
+      "publisher": "ACM Transactions on Graphics (TOG)",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "Tao LIU, Tianyu Zhang, Yongxue Chen, Weiming Wang, Yu Jiang, Yuming Huang, Charlie Wang"
     },
     {
       "name": "Neural Slicer for Multi-Axis 3D Printing",
       "publisher": "ACM Transactions on Graphics (TOG)",
       "releaseDate": "2024",
-      "website": "https://dl.acm.org/doi/abs/10.1145/3658212",
-      "summary": ""
+      "website": "",
+      "summary": "Tao LIU, Tianyu Zhang, Yongxue Chen, Yuming Huang, Charlie Wang"
     },
     {
-      "name": "Learning Based Toolpath Planner on Diverse Graphs for 3D Printing",
-      "publisher": "ACM Transactions on Graphics (TOG)",
-      "releaseDate": "2024",
-      "website": "https://dl.acm.org/doi/abs/10.1145/3687933",
-      "summary": ""
-    },
-    {
-      "name": "Co-Optimization of Tool Orientations, Kinematic Redundancy, and Waypoint Timing for Robot-Assisted Manufacturing",
-      "publisher": "IEEE Transactions on Automation Science and Engineering",
+      "name": "Curve-Based Slicer for Multi-Axis DLP 3D Printing",
+      "publisher": "ACM Transactions on Graphics (TOG), 44(6):1--14, 2025 (Best Paper Award)",
       "releaseDate": "2025",
-      "website": "https://ieeexplore.ieee.org/abstract/document/10891882",
-      "summary": ""
+      "website": "",
+      "summary": "Chengkai Dai, Tao LIU, Dezhao Guo, Binzhi Sun, Guoxin Fang, Yeung Yam, Charlie C. L. Wang"
+    },
+    {
+      "name": "Can Any Model Be Fabricated? Inverse Operation Based Planning for Hybrid Additive-Subtractive Manufacturing",
+      "publisher": "ACM Transactions on Graphics (TOG), 44(6):1--14, 2025",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "Yongxue Chen, Tao LIU, Yuming Huang, Weiming Wang, Tianyu Zhang, Kun Qian, Zikang Shi, Charlie C. L. Wang"
     },
     {
       "name": "Toolpath generation for high density spatial fiber printing guided by principal stresses",
-      "publisher": "Composites Part B: Engineering",
+      "publisher": "Composites Part B: Engineering, 2025",
       "releaseDate": "2025",
-      "website": "https://www.sciencedirect.com/science/article/pii/S1359836825000447",
-      "summary": ""
+      "website": "",
+      "summary": "Tianyu Zhang, Tao LIU, Neelotpal Dutta, Yongxue Chen, Renbo Su, Zhizhou Zhang, Weiming Wang, Charlie Wang"
     },
-        {
-      "name": "Neural co-optimization of structural topology, manufacturable layers, and path orientations for fiber-reinforced composites",
-      "publisher": "ACM Transactions on Graphics (TOG)",
+    {
+      "name": "Memory-efficient modeling and slicing of large-scale adaptive lattice structures",
+      "publisher": "Journal of Computing and Information Science in Engineering, 21(6):061003, 2021",
+      "releaseDate": "2021",
+      "website": "",
+      "summary": "Shengjun LIU, Tao LIU, Qiang Zou, Weiming Wang, Eugeni L Doubrovski, Charlie CL Wang"
+    },
+    {
+      "name": "Variational progressive-iterative approximation for RBF-based surface reconstruction",
+      "publisher": "The Visual Computer, 2021",
+      "releaseDate": "2021",
+      "website": "",
+      "summary": "Shengjun LIU, Tao LIU, Ling Hu, Yuanyuan Shang, Xinru Liu"
+    },
+    {
+      "name": "Force-Based Adaptive Deposition in Multi-Axis Additive Manufacturing: Low Porosity for Enhanced Strength",
+      "publisher": "Robotics and Computer-Integrated Manufacturing, 2026",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": "Yuming Huang, Renbo Su, Kun Qian, Tianyu Zhang, Yongxue Chen, Tao LIU, Guoxin Fang, Weiming Wang, Charlie Wang"
+    },
+    {
+      "name": "Roadmap on Artificial Intelligence-Augmented Additive Manufacturing",
+      "publisher": "Advanced Intelligent Systems, 2026",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": "Ali Zolfagharian, Liuchao Jin, Qi Ge, Wei-Hsin Liao, Andrés Díaz Lantada, Francisco Franco Martínez, Tianyu Zhang, Tao LIU, Charlie C. L. Wang, and others"
+    },
+    {
+      "name": "Co-Optimization of Tool Orientations, Kinematic Redundancy, and Waypoint Timing for Robot-Assisted Manufacturing",
+      "publisher": "IEEE Transactions on Automation Science and Engineering, 2025",
       "releaseDate": "2025",
-      "website": "https://dl.acm.org/doi/abs/10.1145/3730922",
-      "summary": ""
+      "website": "",
+      "summary": "Yongxue Chen, Tianyu Zhang, Yuming Huang, Tao LIU, Charlie Wang"
     },
+    {
+      "name": "Learning Based Toolpath Planner on Diverse Graphs for 3D Printing",
+      "publisher": "ACM Transactions on Graphics (TOG), 2024",
+      "releaseDate": "2024",
+      "website": "",
+      "summary": "Yuming Huang, Yuhu Guo, Renbo Su, Xingjian Han, Junhao Ding, Tianyu Zhang, Tao LIU, Weiming Wang, Guoxin Fang, Xu Song, and others"
+    },
+    {
+      "name": "Implicit progressive-iterative algorithm of curves and surfaces with compactly supported radial basis functions",
+      "publisher": "Journal of Computer-Aided Design & Computer Graphics, 2021",
+      "releaseDate": "2021",
+      "website": "",
+      "summary": "Haibo Wang, Tao LIU, Shengjun Liu, Wenyan Wei, Xinru Liu, Pingbo Liu, Yanyu Bai, Yue'an Chen"
+    }
   ],
   "presentations": [],
   "teaching": [
     {
-      "course": "Introduction to Programming",
+      "course": "Graphics & Virtual Environments",
       "institution": "The University of Manchester",
-      "date": "2024-2025",
+      "date": "September 2025",
       "role": "Teaching Assistant",
-      "description": ""
+      "description": "Undergraduate course"
+    },
+    {
+      "course": "Fundamentals of Computer Architecture",
+      "institution": "The University of Manchester",
+      "date": "September 2025",
+      "role": "Teaching Assistant",
+      "description": "Undergraduate course"
+    },
+    {
+      "course": "Experimental Methods (MSc Structural Engineering)",
+      "institution": "The University of Manchester",
+      "date": "September 2025",
+      "role": "Teaching Assistant",
+      "description": "Postgraduate course"
+    },
+    {
+      "course": "Introduction to Programming 1",
+      "institution": "The University of Manchester",
+      "date": "September 2024",
+      "role": "Teaching Assistant",
+      "description": "Undergraduate course"
+    },
+    {
+      "course": "Additive Manufacturing & 3D Product Modelling",
+      "institution": "The University of Manchester",
+      "date": "September 2023",
+      "role": "Teaching Assistant",
+      "description": "Undergraduate course"
     },
     {
       "course": "Advanced Modelling & Simulation",
       "institution": "The University of Manchester",
-      "date": "2023-2024",
-      "role": "Workshop",
-      "description": ""
+      "date": "September 2023",
+      "role": "Teaching Assistant",
+      "description": "Undergraduate course"
     },
-      {
-      "course": " Additive Manufacturing & 3D Product Modelling",
-      "institution": "The University of Manchester",
-      "date": "2023-2024",
+    {
+      "course": "Computer Graphics",
+      "institution": "Central South University",
+      "date": "2018",
       "role": "Teaching Assistant",
       "description": ""
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "service": {
+    "reviewer": [
+      "ACM SIGGRAPH and SIGGRAPH Asia",
+      "Additive Manufacturing Process (AMP)",
+      "Computer Aided Design (CAD)",
+      "ACM Symposium on Computational Fabrication (SCF)",
+      "Computer Aided Geometry Design (CAGD)",
+      "Eurographics (EG)",
+      "Graphical Models (GMod)"
+    ]
+  },
+  "references": [],
+  "portfolio": []
 }

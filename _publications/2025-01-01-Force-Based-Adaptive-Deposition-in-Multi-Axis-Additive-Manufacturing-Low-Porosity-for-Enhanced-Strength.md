@@ -6,6 +6,8 @@ permalink: /publication/2025-01-01-Force-Based-Adaptive-Deposition-in-Multi-Axis
 date: 2026-04-01
 venue: 'Robotics and Computer-Integrated Manufacturing'
 citation: ' Yuming Huang,  Renbo Su,  Kun Qian,  Tianyu Zhang,  Yongxue Chen,  Tao Liu,  Guoxin Fang,  Weiming Wang,  Charlie Wang, &quot;Force-Based Adaptive Deposition in Multi-Axis Additive Manufacturing: Low Porosity for Enhanced Strength.&quot; Robotics and Computer-Integrated Manufacturing, 2025.'
+author_role: "other"
+authors: "Yuming Huang, Renbo Su, Kun Qian, Tianyu Zhang, Yongxue Chen, Tao LIU, Guoxin Fang, Weiming Wang, Charlie Wang"
 selected: true
 header:
   teaser: publications/AMForceFeedbackFDM.jpg

@@ -5,88 +5,108 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style>
+.publications-intro {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 2em;
+}
+
+.publications-intro p {
+  margin: 0;
+  font-size: 1em;
+}
+
+.archive__item-content {
+  font-size: 0.9em;
+}
+
+.archive__item-excerpt {
+  font-size: 0.9em;
+}
+
+.publication-authors {
+  font-size: 0.9em;
+  margin-top: 0.3em;
+  margin-bottom: 0.5em;
+}
+
+.publication-role-section {
+  margin-bottom: 2.5em;
+}
+
+.publication-role-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 1em;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5em;
+}
+</style>
+
 <div class="publications-intro">
   <p>My research focuses on <span class="highlight-text">computational geometry, additive manufacturing, and robotics</span>. Below is a list of my publications. {% if site.author.googlescholar %}You can also find my articles on <a href="{{site.author.googlescholar}}" class="highlight-link">my Google Scholar profile</a>.{% endif %}</p>
 </div>
 
 {% include base_path %}
 
-<!-- Group publications by year: 2026, 2025, 2024, then others -->
 {% assign sorted_pubs = site.publications | sort: "date" | reverse %}
 
-<!-- Display 2026 -->
-{% assign year_2026 = "" | split: "" %}
+<!-- Group by author role only, no year grouping -->
+{% assign first_author_cofirst = "" | split: "" %}
+{% assign cofirst = "" | split: "" %}
+{% assign supervisor_first_cofirst = "" | split: "" %}
+{% assign other = "" | split: "" %}
+
 {% for post in sorted_pubs %}
-  {% assign post_year = post.date | date: "%Y" %}
-  {% if post_year == "2026" %}
-    {% assign year_2026 = year_2026 | push: post %}
+  {% if post.author_role == "first-author-cofirst" %}
+    {% assign first_author_cofirst = first_author_cofirst | push: post %}
+  {% elsif post.author_role == "cofirst" %}
+    {% assign cofirst = cofirst | push: post %}
+  {% elsif post.author_role == "supervisor-first-second-author" %}
+    {% assign supervisor_first_cofirst = supervisor_first_cofirst | push: post %}
+  {% else %}
+    {% assign other = other | push: post %}
   {% endif %}
 {% endfor %}
-{% if year_2026.size > 0 %}
-  <h2 class="publication-year-title">2026</h2>
-  {% for post in year_2026 %}
+
+<!-- First Author (Co-first) -->
+{% if first_author_cofirst.size > 0 %}
+<div class="publication-role-section">
+  <h2 class="publication-role-title">First Author (Co-first Author)</h2>
+  {% for post in first_author_cofirst %}
     {% include archive-single.html %}
   {% endfor %}
+</div>
 {% endif %}
 
-<!-- Display 2025 -->
-{% assign year_2025 = "" | split: "" %}
-{% for post in sorted_pubs %}
-  {% assign post_year = post.date | date: "%Y" %}
-  {% if post_year == "2025" %}
-    {% assign year_2025 = year_2025 | push: post %}
-  {% endif %}
-{% endfor %}
-{% if year_2025.size > 0 %}
-  <h2 class="publication-year-title">2025</h2>
-  {% for post in year_2025 %}
+<!-- Co-first Author -->
+{% if cofirst.size > 0 %}
+<div class="publication-role-section">
+  <h2 class="publication-role-title">Co-first Author</h2>
+  {% for post in cofirst %}
     {% include archive-single.html %}
   {% endfor %}
+</div>
 {% endif %}
 
-<!-- Display 2024 -->
-{% assign year_2024 = "" | split: "" %}
-{% for post in sorted_pubs %}
-  {% assign post_year = post.date | date: "%Y" %}
-  {% if post_year == "2024" %}
-    {% assign year_2024 = year_2024 | push: post %}
-  {% endif %}
-{% endfor %}
-{% if year_2024.size > 0 %}
-  <h2 class="publication-year-title">2024</h2>
-  {% for post in year_2024 %}
+<!-- Supervisor First Author (Second Author) -->
+{% if supervisor_first_cofirst.size > 0 %}
+<div class="publication-role-section">
+  <h2 class="publication-role-title">Supervisor First Author (Second Author)</h2>
+  {% for post in supervisor_first_cofirst %}
     {% include archive-single.html %}
   {% endfor %}
+</div>
 {% endif %}
 
-<!-- Display other years (sorted in reverse order) -->
-{% assign processed_years = "2026,2025,2024" | split: "," %}
-{% assign other_years_pubs = "" | split: "" %}
-{% for post in sorted_pubs %}
-  {% assign post_year = post.date | date: "%Y" %}
-  {% assign is_special_year = false %}
-  {% for year in processed_years %}
-    {% if post_year == year %}
-      {% assign is_special_year = true %}
-      {% break %}
-    {% endif %}
-  {% endfor %}
-  {% unless is_special_year %}
-    {% assign other_years_pubs = other_years_pubs | push: post %}
-  {% endunless %}
-{% endfor %}
-
-{% if other_years_pubs.size > 0 %}
-  {% assign current_year = "" %}
-  {% for post in other_years_pubs %}
-    {% assign post_year = post.date | date: "%Y" %}
-    {% if current_year != post_year %}
-      <h2 class="publication-year-title">{{ post_year }}</h2>
-      {% assign current_year = post_year %}
-    {% endif %}
+<!-- Other -->
+{% if other.size > 0 %}
+<div class="publication-role-section">
+  <h2 class="publication-role-title">Other</h2>
+  {% for post in other %}
     {% include archive-single.html %}
   {% endfor %}
+</div>
 {% endif %}
-
-
-

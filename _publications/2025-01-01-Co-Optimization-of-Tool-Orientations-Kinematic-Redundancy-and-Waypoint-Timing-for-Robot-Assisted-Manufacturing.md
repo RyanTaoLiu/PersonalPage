@@ -6,6 +6,8 @@ permalink: /publication/2025-01-01-Co-Optimization-of-Tool-Orientations-Kinemati
 date: 2025-01-01
 venue: 'IEEE Transactions on Automation Science and Engineering'
 citation: ' Yongxue Chen,  Tianyu Zhang,  Yuming Huang,  Tao Liu,  Charlie Wang, &quot;Co-Optimization of Tool Orientations, Kinematic Redundancy, and Waypoint Timing for Robot-Assisted Manufacturing.&quot; IEEE Transactions on Automation Science and Engineering, 2025.'
+author_role: "other"
+authors: "Yongxue Chen, Tianyu Zhang, Yuming Huang, Tao LIU, Charlie Wang"
 selected: true
 header:
   teaser: publications/TASEConTrajOptm.jpg

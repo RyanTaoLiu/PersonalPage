@@ -6,17 +6,17 @@
 .cv-container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 2em;
+  padding: 1em;
   font-family: $global-font-family;
   color: var(--global-text-color);
-  line-height: 1.7;
+  line-height: 1.5;
   background-color: var(--global-bg-color);
 }
 
 /* Header Styles */
 .cv-header {
-  margin-bottom: 3rem;
-  padding: 2em;
+  margin-bottom: 1.5rem;
+  padding: 1em;
   background: linear-gradient(135deg, var(--global-bg-color) 0%, rgba(82, 173, 200, 0.05) 100%);
   border-left: 4px solid var(--global-link-color);
   border-radius: 8px;
@@ -42,9 +42,9 @@
 .cv-contact {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .cv-contact-item {
@@ -108,8 +108,8 @@
 
 /* Section Styles */
 .cv-section {
-  margin-bottom: 2.5rem;
-  padding: 1.5em;
+  margin-bottom: 1.5rem;
+  padding: 1em;
   background-color: var(--global-bg-color);
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -117,8 +117,8 @@
 
 .cv-section h2 {
   border-bottom: 3px solid var(--global-link-color);
-  padding-bottom: 0.75rem;
-  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
   margin-top: 0;
   display: flex;
   align-items: center;
@@ -135,8 +135,8 @@
 /* Item Styles */
 
 .cv-item {
-  margin-bottom: 1.5rem;
-  padding: 1em;
+  margin-bottom: 0.75rem;
+  padding: 0.75em;
   background-color: var(--global-bg-color);
   border-left: 3px solid var(--global-border-color);
   border-radius: 4px;
@@ -159,7 +159,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
   flex-wrap: wrap;
   gap: 0.5rem;
 }
@@ -184,21 +184,21 @@
 }
 
 .cv-item-content {
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
 }
 
 .cv-item-subtitle {
   color: var(--global-text-color-light);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
   font-size: $type-size-6;
   font-style: italic;
 }
 
 .cv-item-detail {
   color: var(--global-text-color);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
   font-size: $type-size-6;
-  line-height: 1.6;
+  line-height: 1.5;
 
   a {
     color: var(--global-link-color);
@@ -385,8 +385,8 @@
 
 /* CV Download Links */
 .cv-download-links {
-  margin-top: 3em;
-  padding: 2em;
+  margin-top: 1.5em;
+  padding: 1em;
   text-align: center;
   background-color: var(--global-bg-color);
   border-radius: 8px;
@@ -410,7 +410,7 @@
 /* Summary Section */
 .cv-section p {
   color: var(--global-text-color);
-  line-height: 1.8;
+  line-height: 1.5;
   font-size: $type-size-5;
   margin: 0;
 }

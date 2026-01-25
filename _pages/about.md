@@ -35,6 +35,8 @@ I serve as a reviewer for journals and conferences, including:
 - *Computer Aided Geometry Design (CAGD)*
 - *Eurographics (EG)*
 - *Graphical Models (GMod)*
+- *Computers & Graphics (CG)*
+
 
 ## Open Source Software
 

@@ -5,9 +5,9 @@ category: manuscripts
 permalink: /publication/2026-03-01-TPMS-based-mechanical-bonding-structures-optimized-by-FEM-with-periodic-boundary-conditions
 date: 2026-03-01
 venue: 'Materials & Design'
-citation: 'Charlie C.L. Wang, Renbo Su, Tao Liu, Tianyu Zhang, Yingjun Tian, Romain Hautier, Weiming Wang, "TPMS-based mechanical bonding structures optimized by FEM with periodic boundary conditions." Materials & Design, Volume 263, Pages 115581, 2026.'
+citation: 'Renbo Su, Tao Liu, Tianyu Zhang, Yingjun Tian, Romain Hautier, Weiming Wang, and Charlie C.L. Wang "TPMS-based mechanical bonding structures optimized by FEM with periodic boundary conditions." Materials & Design, Volume 263, Pages 115581, 2026.'
 author_role: "other"
-authors: "Charlie C.L. Wang, Renbo Su, Tao LIU, Tianyu Zhang, Yingjun Tian, Romain Hautier, Weiming Wang"
+authors: "Renbo Su, Tao LIU, Tianyu Zhang, Yingjun Tian, Romain Hautier, Weiming Wang, Charlie C.L. Wang"
 selected: true
 header:
   teaser: publications/TPMS-mechanical-bonding.jpg

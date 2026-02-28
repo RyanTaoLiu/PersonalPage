@@ -159,6 +159,9 @@
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ award.awarder }}</div>
+          {% if award.summary %}
+          <div class="cv-item-detail" style="font-style: italic; margin-top: 0.25em;">{{ award.summary }}</div>
+          {% endif %}
         </div>
       </li>
       {% endfor %}

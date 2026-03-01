@@ -25,10 +25,15 @@ Before my Ph.D., I received my **B.S. and M.S. degrees in Computational Mathemat
 
 ## Publications & Service
 
-I have published in some journals and conferences such as **ACM Transactions on Graphics (TOG)**, **IEEE Transactions on Automation Science and Engineering**, and **Composites Part B**. Beyond research, I also serve as a teaching assistant for programming, modelling, and additive manufacturing courses at Manchester.
+I have published in some journals and conferences such as **ACM Transactions on Graphics (TOG)**, **IEEE Transactions on Automation Science and Engineering**, and **Composites Part B**. Some of my first-author publications include:
 
-I serve as a reviewer for journals and conferences, including:
-- *ACM SIGGRAPH** and *SIGGRAPH Asia*
+- **Neural co-optimization of structural topology, manufacturable layers, and path orientations for fiber-reinforced composites** (ACM TOG, 2025)
+- **Neural Slicer for Multi-Axis 3D Printing** (ACM TOG, 2024)
+- **Curve-Based Slicer for Multi-Axis DLP 3D Printing** (ACM TOG, 2025) - *Best Paper Award, SIGGRAPH Asia*
+- **Can Any Model Be Fabricated? Inverse Operation Based Planning for Hybrid Additive-Subtractive Manufacturing** (ACM TOG, 2025) - *Monthly Paper Award, School of Engineering, University of Manchester*
+
+I also serve as a reviewer for journals and conferences, including:
+- **ACM SIGGRAPH** and **SIGGRAPH Asia**
 - *ACM Symposium on Computational Fabrication (SCF)*
 - *Additive Manufacturing Process (AMP)*
 - *Computer Aided Design (CAD)*

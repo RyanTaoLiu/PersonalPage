@@ -25,7 +25,9 @@ Before my Ph.D., I received my **B.S. and M.S. degrees in Computational Mathemat
 
 ## Publications, Service & Collaborative Projects
 
-I have published in some journals and conferences such as **ACM Transactions on Graphics (TOG)**, **IEEE Transactions on Automation Science and Engineering**, and **Composites Part B**. Some of my first-author publications include:
+### Selected Publications
+
+I have published in journals and conferences such as **ACM Transactions on Graphics (TOG)**, **IEEE Transactions on Automation Science and Engineering**, and **Composites Part B**. Some of my first-author publications include:
 
 - **Neural co-optimization of structural topology, manufacturable layers, and path orientations for fiber-reinforced composites** (ACM TOG, 2025) - *Monthly Paper Award, School of Engineering, University of Manchester*
 - **Neural Slicer for Multi-Axis 3D Printing** (ACM TOG, 2024)
@@ -33,10 +35,14 @@ I have published in some journals and conferences such as **ACM Transactions on 
 - **Can Any Model Be Fabricated? Inverse Operation Based Planning for Hybrid Additive-Subtractive Manufacturing** (ACM TOG, 2025)
 - **Toolpath generation for high density spatial fiber printing guided by principal stresses** (Composites Part B: Engineering, 2025)
 
+### Collaborative Projects
+
 I have also been involved in **industry collaborative projects**, including:
 
 - **Broetje-Automation GmbH & Airbus** – Vector-field guided tool-path planning for 3D printing with continuous carbon fiber (CCF) *(Completed)*
 - **NCC (National Composites Centre)** – Nonplanar Continuous Fibre AM (CFAM) design tool evaluation *(Completed)*
+
+### Academic Service
 
 I also serve as a reviewer for journals and conferences, including:
 - **ACM SIGGRAPH** and **SIGGRAPH Asia**

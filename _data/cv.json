@@ -272,5 +272,20 @@
     ]
   },
   "references": [],
-  "portfolio": []
+  "portfolio": [
+    {
+      "name": "Vector-field guided tool-path planning for 3D printing with CCF",
+      "date": "2024",
+      "category": "Collaborative Project",
+      "description": "Broetje-Automation GmbH & Airbus - Vector-field guided tool-path planning for 3D printing with continuous carbon fiber (CCF). Status: Completed.",
+      "url": ""
+    },
+    {
+      "name": "Nonplanar Continuous Fibre AM (CFAM) design tool evaluation",
+      "date": "2024",
+      "category": "Collaborative Project",
+      "description": "NCC (National Composites Centre) - Nonplanar Continuous Fibre AM (CFAM) design tool evaluation. Status: Completed.",
+      "url": ""
+    }
+  ]
 }

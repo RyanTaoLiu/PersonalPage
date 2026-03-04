@@ -23,7 +23,7 @@ My research focuses on **multi-axis 3D printing, topology optimization, and comp
 
 Before my Ph.D., I received my **B.S. and M.S. degrees in Computational Mathematics**, supervised by Professor Shengjun LIU from [Central South University](https://www.csu.edu.cn/), ChangSha, China.
 
-## Publications & Service
+## Publications, Service & Collaborative Projects
 
 I have published in some journals and conferences such as **ACM Transactions on Graphics (TOG)**, **IEEE Transactions on Automation Science and Engineering**, and **Composites Part B**. Some of my first-author publications include:
 
@@ -32,6 +32,11 @@ I have published in some journals and conferences such as **ACM Transactions on 
 - **Curve-Based Slicer for Multi-Axis DLP 3D Printing** (ACM TOG, 2025) - *Best Paper Award, SIGGRAPH Asia*
 - **Can Any Model Be Fabricated? Inverse Operation Based Planning for Hybrid Additive-Subtractive Manufacturing** (ACM TOG, 2025)
 - **Toolpath generation for high density spatial fiber printing guided by principal stresses** (Composites Part B: Engineering, 2025)
+
+I have also been involved in **industry collaborative projects**, including:
+
+- **Broetje-Automation GmbH & Airbus** – Vector-field guided tool-path planning for 3D printing with continuous carbon fiber (CCF) *(Completed)*
+- **NCC (National Composites Centre)** – Nonplanar Continuous Fibre AM (CFAM) design tool evaluation *(Completed)*
 
 I also serve as a reviewer for journals and conferences, including:
 - **ACM SIGGRAPH** and **SIGGRAPH Asia**

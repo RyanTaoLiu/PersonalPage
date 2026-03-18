@@ -50,6 +50,7 @@ I also serve as a reviewer for journals and conferences, including:
 - *Additive Manufacturing Process (AMP)*
 - *Computer Aided Design (CAD)*
 - *Computer Aided Geometry Design (CAGD)*
+- *IEEE Transactions on Visualization and Computer Graphics (TVCG)*
 - *Eurographics (EG)*
 - *Graphical Models (GMod)*
 - *Computers & Graphics (CG)*

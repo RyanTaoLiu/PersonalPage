@@ -124,51 +124,44 @@
     },
     {
       "name": "Neural co-optimization of structural topology, manufacturable layers, and path orientations for fiber-reinforced composites",
-      "publisher": "ACM Transactions on Graphics (TOG)",
+      "publisher": "ACM Transactions on Graphics (TOG), 2025 (Monthly Paper Award, School of Engineering, University of Manchester)",
       "releaseDate": "2025",
-      "website": "",
+      "website": "https://ryantaoliu.github.io/NeuralTOMO/",
       "summary": "Tao LIU, Tianyu Zhang, Yongxue Chen, Weiming Wang, Yu Jiang, Yuming Huang, Charlie Wang"
     },
     {
       "name": "Neural Slicer for Multi-Axis 3D Printing",
       "publisher": "ACM Transactions on Graphics (TOG)",
       "releaseDate": "2024",
-      "website": "",
+      "website": "https://ryantaoliu.github.io/NeuralSlicer/",
       "summary": "Tao LIU, Tianyu Zhang, Yongxue Chen, Yuming Huang, Charlie Wang"
     },
     {
       "name": "Curve-Based Slicer for Multi-Axis DLP 3D Printing",
       "publisher": "ACM Transactions on Graphics (TOG), 44(6):1--14, 2025 (Best Paper Award)",
       "releaseDate": "2025",
-      "website": "",
+      "website": "https://chengkai-dai.github.io/curved_dlp_slicer/",
       "summary": "Chengkai Dai, Tao LIU, Dezhao Guo, Binzhi Sun, Guoxin Fang, Yeung Yam, Charlie C. L. Wang"
     },
     {
       "name": "Can Any Model Be Fabricated? Inverse Operation Based Planning for Hybrid Additive-Subtractive Manufacturing",
       "publisher": "ACM Transactions on Graphics (TOG), 44(6):1--14, 2025",
       "releaseDate": "2025",
-      "website": "",
+      "website": "https://yongxue-chen.github.io/hybManuAccEro/",
       "summary": "Yongxue Chen, Tao LIU, Yuming Huang, Weiming Wang, Tianyu Zhang, Kun Qian, Zikang Shi, Charlie C. L. Wang"
     },
     {
       "name": "Toolpath generation for high density spatial fiber printing guided by principal stresses",
       "publisher": "Composites Part B: Engineering, 2025",
       "releaseDate": "2025",
-      "website": "",
+      "website": "https://doi.org/10.1016/j.compositesb.2025.112154",
       "summary": "Tianyu Zhang, Tao LIU, Neelotpal Dutta, Yongxue Chen, Renbo Su, Zhizhou Zhang, Weiming Wang, Charlie Wang"
-    },
-    {
-      "name": "TPMS-based mechanical bonding structures optimized by FEM with periodic boundary conditions",
-      "publisher": "Materials & Design, 263:115581, 2026",
-      "releaseDate": "2026",
-      "website": "",
-      "summary": "Charlie C.L. Wang, Renbo Su, Tao LIU, Tianyu Zhang, Yingjun Tian, Romain Hautier, Weiming Wang"
     },
     {
       "name": "Memory-efficient modeling and slicing of large-scale adaptive lattice structures",
       "publisher": "Journal of Computing and Information Science in Engineering, 21(6):061003, 2021",
       "releaseDate": "2021",
-      "website": "",
+      "website": "https://doi.org/10.1115/1.4050290",
       "summary": "Shengjun LIU, Tao LIU, Qiang Zou, Weiming Wang, Eugeni L Doubrovski, Charlie CL Wang"
     },
     {
@@ -179,31 +172,38 @@
       "summary": "Shengjun LIU, Tao LIU, Ling Hu, Yuanyuan Shang, Xinru Liu"
     },
     {
+      "name": "TPMS-based mechanical bonding structures optimized by FEM with periodic boundary conditions",
+      "publisher": "Materials & Design, 263:115581, 2026",
+      "releaseDate": "2026",
+      "website": "https://doi.org/10.1016/j.matdes.2026.115581",
+      "summary": "Renbo Su, Tao LIU, Tianyu Zhang, Yingjun Tian, Romain Hautier, Weiming Wang, Charlie C.L. Wang"
+    },
+    {
       "name": "Force-Based Adaptive Deposition in Multi-Axis Additive Manufacturing: Low Porosity for Enhanced Strength",
       "publisher": "Robotics and Computer-Integrated Manufacturing, 2026",
       "releaseDate": "2026",
-      "website": "",
+      "website": "https://github.com/yuminghuang1995/ForceBasedDeposition/",
       "summary": "Yuming Huang, Renbo Su, Kun Qian, Tianyu Zhang, Yongxue Chen, Tao LIU, Guoxin Fang, Weiming Wang, Charlie Wang"
     },
     {
       "name": "Roadmap on Artificial Intelligence-Augmented Additive Manufacturing",
       "publisher": "Advanced Intelligent Systems, 2026",
       "releaseDate": "2026",
-      "website": "",
+      "website": "https://doi.org/10.1002/aisy.202500484",
       "summary": "Ali Zolfagharian, Liuchao Jin, Qi Ge, Wei-Hsin Liao, Andrés Díaz Lantada, Francisco Franco Martínez, Tianyu Zhang, Tao LIU, Charlie C. L. Wang, and others"
     },
     {
       "name": "Co-Optimization of Tool Orientations, Kinematic Redundancy, and Waypoint Timing for Robot-Assisted Manufacturing",
       "publisher": "IEEE Transactions on Automation Science and Engineering, 2025",
       "releaseDate": "2025",
-      "website": "",
+      "website": "https://doi.org/10.1109/TASE.2025.3542218",
       "summary": "Yongxue Chen, Tianyu Zhang, Yuming Huang, Tao LIU, Charlie Wang"
     },
     {
       "name": "Learning Based Toolpath Planner on Diverse Graphs for 3D Printing",
       "publisher": "ACM Transactions on Graphics (TOG), 2024",
       "releaseDate": "2024",
-      "website": "",
+      "website": "https://rl-toolpath-planner.github.io",
       "summary": "Yuming Huang, Yuhu Guo, Renbo Su, Xingjian Han, Junhao Ding, Tianyu Zhang, Tao LIU, Weiming Wang, Guoxin Fang, Xu Song, and others"
     },
     {

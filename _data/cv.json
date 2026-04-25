@@ -116,6 +116,13 @@
   ],
   "publications": [
     {
+      "name": "Co-optimization of structure and manufacturable semi-continuous layers for laminated composites",
+      "publisher": "ACM Transactions on Graphics (SIGGRAPH 2026), accepted, July 2026",
+      "releaseDate": "2026",
+      "website": "https://ryantaoliu.github.io/SemiContinuousTOMO/",
+      "summary": "Tao LIU, Aoran Lyu, Yongxue Chen, Yu Jiang, Michael Petty, Charlie C.L. Wang"
+    },
+    {
       "name": "Neural co-optimization of structural topology, manufacturable layers, and path orientations for fiber-reinforced composites",
       "publisher": "ACM Transactions on Graphics (TOG)",
       "releaseDate": "2025",

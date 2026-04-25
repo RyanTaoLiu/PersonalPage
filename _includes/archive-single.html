@@ -43,7 +43,13 @@
               {% assign is_tao_liu = true %}
             {% endif %}
             {% assign author_index = forloop.index0 %}
-            {% if post.author_role == "first-author-cofirst" %}
+            {% if post.author_role == "first-author" %}
+              {% if is_tao_liu %}
+                <u><strong>{{ author }}</strong></u>{% unless forloop.last %}, {% endunless %}
+              {% else %}
+                {{ author }}{% unless forloop.last %}, {% endunless %}
+              {% endif %}
+            {% elsif post.author_role == "first-author-cofirst" %}
               {% if is_tao_liu %}
                 <u><strong>{{ author }}</strong></u>{% unless forloop.last %}, {% endunless %}
               {% elsif author_index == 1 %}
@@ -101,20 +107,29 @@
         <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
         {% endif %}
         
-        {% if post.paperurl and post.slidesurl and post.bibtexurl %}
-          <p class="archive__item-links"><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif post.paperurl and post.slidesurl %}
-          <p class="archive__item-links"><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
-        {% elsif post.paperurl and post.bibtexurl %}
-          <p class="archive__item-links"><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif post.paperurl %}
-          <p class="archive__item-links"><a href="{{ post.paperurl }}">Download Paper</a></p>
-        {% elsif post.slidesurl and post.bibtexurl %}
-          <p class="archive__item-links"><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif post.slidesurl %}
-          <p class="archive__item-links"><a href="{{ post.slidesurl }}">Download Slides</a></p>
-        {% elsif post.bibtexurl %}
-          <p class="archive__item-links"><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+        {% assign item_links = "" | split: "" %}
+        {% if post.projecturl %}
+          {% capture project_link %}<a href="{{ post.projecturl }}">Project</a>{% endcapture %}
+          {% assign item_links = item_links | push: project_link %}
+        {% endif %}
+        {% if post.videourl %}
+          {% capture video_link %}<a href="{{ post.videourl }}">Video@YouTube</a>{% endcapture %}
+          {% assign item_links = item_links | push: video_link %}
+        {% endif %}
+        {% if post.paperurl %}
+          {% capture paper_link %}<a href="{{ post.paperurl }}">Download Paper</a>{% endcapture %}
+          {% assign item_links = item_links | push: paper_link %}
+        {% endif %}
+        {% if post.slidesurl %}
+          {% capture slides_link %}<a href="{{ post.slidesurl }}">Download Slides</a>{% endcapture %}
+          {% assign item_links = item_links | push: slides_link %}
+        {% endif %}
+        {% if post.bibtexurl %}
+          {% capture bibtex_link %}<a href="{{ post.bibtexurl }}">Download Bibtex</a>{% endcapture %}
+          {% assign item_links = item_links | push: bibtex_link %}
+        {% endif %}
+        {% if item_links.size > 0 %}
+          <p class="archive__item-links">{{ item_links | join: " | " }}</p>
         {% endif %}
       </div>
     </div>

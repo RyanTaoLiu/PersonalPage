@@ -54,16 +54,13 @@ author_profile: true
 {% assign sorted_pubs = site.publications | sort: "date" | reverse %}
 
 <!-- Group by author role only, no year grouping -->
-{% assign first_author = "" | split: "" %}
 {% assign first_author_cofirst = "" | split: "" %}
 {% assign cofirst = "" | split: "" %}
 {% assign supervisor_first_cofirst = "" | split: "" %}
 {% assign other = "" | split: "" %}
 
 {% for post in sorted_pubs %}
-  {% if post.author_role == "first-author" %}
-    {% assign first_author = first_author | push: post %}
-  {% elsif post.author_role == "first-author-cofirst" %}
+  {% if post.author_role == "first-author-cofirst" %}
     {% assign first_author_cofirst = first_author_cofirst | push: post %}
   {% elsif post.author_role == "cofirst" %}
     {% assign cofirst = cofirst | push: post %}
@@ -73,16 +70,6 @@ author_profile: true
     {% assign other = other | push: post %}
   {% endif %}
 {% endfor %}
-
-<!-- First Author -->
-{% if first_author.size > 0 %}
-<div class="publication-role-section">
-  <h2 class="publication-role-title">First Author</h2>
-  {% for post in first_author %}
-    {% include archive-single.html %}
-  {% endfor %}
-</div>
-{% endif %}
 
 <!-- First Author (Co-first) -->
 {% if first_author_cofirst.size > 0 %}

@@ -6,7 +6,7 @@ permalink: /publication/2026-07-01-Co-optimization-of-structure-and-manufacturab
 date: 2026-07-01
 venue: 'ACM Transactions on Graphics (SIGGRAPH 2026)'
 citation: 'Tao Liu, Aoran Lyu, Yongxue Chen, Yu Jiang, Michael Petty, and Charlie C.L. Wang, &quot;Co-optimization of structure and manufacturable semi-continuous layers for laminated composites.&quot; ACM Transactions on Graphics (SIGGRAPH 2026), accepted, July 2026.'
-author_role: "first-author"
+author_role: "first-author-cofirst"
 authors: "Tao LIU, Aoran Lyu, Yongxue Chen, Yu Jiang, Michael Petty, Charlie C.L. Wang"
 selected: true
 link: https://ryantaoliu.github.io/SemiContinuousTOMO/

@@ -9,6 +9,7 @@ citation: 'Renbo Su, Tao Liu, Tianyu Zhang, Yingjun Tian, Romain Hautier, Weimin
 author_role: "other"
 authors: "Renbo Su, Tao LIU, Tianyu Zhang, Yingjun Tian, Romain Hautier, Weiming Wang, Charlie C.L. Wang"
 selected: true
+paperurl: https://doi.org/10.1016/j.matdes.2026.115581
 header:
   teaser: publications/TPMS-mechanical-bonding.jpg
 ---

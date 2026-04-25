@@ -9,6 +9,7 @@ citation: 'Zolfagharian Ali, Jin Liuchao, Ge Qi, Liao Wei-Hsin, Lantada Andrés 
 author_role: "other"
 authors: "Ali Zolfagharian, Liuchao Jin, Qi Ge, Wei-Hsin Liao, Andrés Díaz Lantada, Francisco Franco Martínez, Tianyu Zhang, Tao LIU, Charlie C. L. Wang, and others"
 selected: true
+paperurl: https://doi.org/10.1002/aisy.202500484
 header:
   teaser: publications/Adv_Roadmap.png
 ---

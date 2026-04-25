@@ -9,6 +9,8 @@ citation: ' Yongxue Chen,  Tianyu Zhang,  Yuming Huang,  Tao Liu,  Charlie Wang,
 author_role: "other"
 authors: "Yongxue Chen, Tianyu Zhang, Yuming Huang, Tao LIU, Charlie Wang"
 selected: true
+paperurl: https://doi.org/10.1109/TASE.2025.3542218
+videourl: https://youtu.be/vILrYwFufUk
 header:
   teaser: publications/TASEConTrajOptm.jpg
 ---

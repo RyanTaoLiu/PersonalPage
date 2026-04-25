@@ -9,6 +9,9 @@ citation: ' Yuming Huang,  Renbo Su,  Kun Qian,  Tianyu Zhang,  Yongxue Chen,  T
 author_role: "other"
 authors: "Yuming Huang, Renbo Su, Kun Qian, Tianyu Zhang, Yongxue Chen, Tao LIU, Guoxin Fang, Weiming Wang, Charlie Wang"
 selected: true
+projecturl: https://github.com/yuminghuang1995/ForceBasedDeposition/
+paperurl: https://doi.org/10.1016/j.rcim.2025.103123
+videourl: https://youtu.be/i_Gpd3_gRxA
 header:
   teaser: publications/AMForceFeedbackFDM.jpg
 ---

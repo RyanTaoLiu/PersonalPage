@@ -9,6 +9,8 @@ citation: ' Tianyu Zhang,  Tao Liu,  Neelotpal Dutta,  Yongxue Chen,  Renbo Su, 
 author_role: "cofirst"
 authors: "Tianyu Zhang, Tao LIU, Neelotpal Dutta, Yongxue Chen, Renbo Su, Zhizhou Zhang, Weiming Wang, Charlie Wang"
 selected: true
+paperurl: https://doi.org/10.1016/j.compositesb.2025.112154
+videourl: https://youtu.be/ylBgGtqyhDE
 header:
   teaser: publications/AMHighDenseToolpath.jpg
 ---

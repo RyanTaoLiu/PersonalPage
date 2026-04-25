@@ -9,6 +9,9 @@ citation: 'Yongxue Chen, Tao Liu, Yuming Huang, Weiming Wang, Tianyu Zhang, Kun 
 author_role: "cofirst"
 authors: "Yongxue Chen, Tao LIU, Yuming Huang, Weiming Wang, Tianyu Zhang, Kun Qian, Zikang Shi, Charlie C. L. Wang"
 selected: true
+projecturl: https://yongxue-chen.github.io/hybManuAccEro/
+paperurl: https://doi.org/10.1145/3763355
+videourl: https://youtu.be/QE_5t5a_qDg
 header:
   teaser: publications/SIGAsia2025HybridManu.jpg
 ---

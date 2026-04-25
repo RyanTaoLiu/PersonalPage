@@ -10,6 +10,9 @@ author_role: "cofirst"
 authors: "Chengkai Dai, Tao LIU, Dezhao Guo, Binzhi Sun, Guoxin Fang, Yeung Yam, Charlie C. L. Wang"
 award: "Best Paper Award"
 selected: true
+projecturl: https://chengkai-dai.github.io/curved_dlp_slicer/
+paperurl: https://doi.org/10.1145/3763352
+videourl: https://youtu.be/e8qzKNU_eP4
 header:
   teaser: publications/SIGAsia2025MultiAxisDLP.jpg
 ---

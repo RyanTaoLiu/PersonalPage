@@ -9,6 +9,9 @@ citation: ' Yuming Huang,  Yuhu Guo,  Renbo Su,  Xingjian Han,  Junhao Ding,  Ti
 author_role: "other"
 authors: "Yuming Huang, Yuhu Guo, Renbo Su, Xingjian Han, Junhao Ding, Tianyu Zhang, Tao LIU, Weiming Wang, Guoxin Fang, Xu Song, and others"
 selected: true
+projecturl: https://rl-toolpath-planner.github.io
+paperurl: https://doi.org/10.1145/3687933
+videourl: https://youtu.be/E0ljkat4FSU
 header:
   teaser: publications/SIGA2024RLToolpathPlanner.jpg
 ---

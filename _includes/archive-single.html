@@ -117,7 +117,7 @@
           {% assign item_links = item_links | push: video_link %}
         {% endif %}
         {% if post.paperurl %}
-          {% capture paper_link %}<a href="{{ post.paperurl }}">Download Paper</a>{% endcapture %}
+          {% capture paper_link %}<a href="{{ post.paperurl }}">Paper</a>{% endcapture %}
           {% assign item_links = item_links | push: paper_link %}
         {% endif %}
         {% if post.slidesurl %}

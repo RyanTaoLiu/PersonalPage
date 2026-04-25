@@ -9,6 +9,9 @@ citation: ' Tao Liu,  Tianyu Zhang,  Yongxue Chen,  Yuming Huang,  Charlie Wang,
 author_role: "first-author-cofirst"
 authors: "Tao LIU, Tianyu Zhang, Yongxue Chen, Yuming Huang, Charlie Wang"
 selected: true
+projecturl: https://ryantaoliu.github.io/NeuralSlicer/
+paperurl: https://doi.org/10.1145/3658212
+videourl: https://youtu.be/LF1fRD7ygdE
 header:
   teaser: publications/SIG2024NeuralSlicer.jpg
 ---

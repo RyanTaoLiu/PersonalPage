@@ -9,6 +9,9 @@ citation: ' Tao Liu,  Tianyu Zhang,  Yongxue Chen,  Weiming Wang,  Yu Jiang,  Yu
 author_role: "first-author-cofirst"
 authors: "Tao LIU, Tianyu Zhang, Yongxue Chen, Weiming Wang, Yu Jiang, Yuming Huang, Charlie Wang"
 selected: true
+projecturl: https://ryantaoliu.github.io/NeuralTOMO/
+paperurl: https://doi.org/10.1145/3730922
+videourl: https://youtu.be/ooiX590cSkE
 header:
   teaser: publications/SIG2025CoOptmFRComposite.jpg
 ---

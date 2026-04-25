@@ -9,6 +9,7 @@ citation: ' Shengjun Liu,  Tao Liu,  Qiang Zou,  Weiming Wang,  Eugeni Doubrovsk
 author_role: "supervisor-first-second-author"
 authors: "Shengjun LIU, Tao LIU, Qiang Zou, Weiming Wang, Eugeni L Doubrovski, Charlie CL Wang"
 selected: true
+paperurl: https://doi.org/10.1115/1.4050290
 header:
   teaser: publications/JCISELatticeImplicitModeling.jpg
 ---
